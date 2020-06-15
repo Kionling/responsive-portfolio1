@@ -7,3 +7,18 @@ h1 {
     width: 100%;
     padding: 20px;
 }
+
+.nav-link {
+    color:#666;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 30%;
+    padding-bottom: 5px;
+    height: 45%;
+    padding-top: 30px;
+}
+
+#navbard {
+    background-color: #eee;
+}
