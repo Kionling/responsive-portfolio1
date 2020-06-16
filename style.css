@@ -24,13 +24,15 @@ h2 {
 
 }
 
-#temp{
-    background: red;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    right: 1%;
-    top:1%;
+li {
+    list-style: none;
+    line-height: 100px;
+    color: #666;
+    font-size: 50px;
+}
+
+a{
+    color: #666;
 }
 
 
