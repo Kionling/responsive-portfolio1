@@ -22,3 +22,30 @@ h1 {
 #navbard {
     background-color: #eee;
 }
+
+#AboutMe {
+    background-color: #eee;
+    margin: 30px;
+}
+h3 {
+    color: #37b09c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: #666;
+}
+
+@media screen and (max-width: 767px) {
+
+    #bob {
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
