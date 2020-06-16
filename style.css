@@ -121,13 +121,14 @@ p {
     position: relative;
     bottom: 30px;
     color: white;
-    left: 10px;
     text-align: center;
-    background-color: #37b09c ;
+    background-color: #37b09c;
+    margin: 0; 
+    padding: 0;
+    width: 60px;
+
 }
 
-p#soundcloud.centered {
-    left: 10px;
-}
+
 
 
