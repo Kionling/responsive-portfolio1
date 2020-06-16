@@ -27,10 +27,12 @@ h2 {
     width: 40px;
     height: 40px;
     margin-left: 10px;
-
-
-
  }
+#myicons1 {
+    width: 200px;
+    height: 200x;
+}
+
 
 li {
     list-style: none;
@@ -113,4 +115,9 @@ p {
     div.col-md-6.col-sm-6.col-xs-6 {
         margin-left: 10px;
     }
+}
+
+#image2 {
+    margin: 0;
+    padding: 0;
 }
