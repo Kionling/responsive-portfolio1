@@ -8,6 +8,33 @@ h1 {
     padding: 20px;
 }
 
+
+    .data{
+        width: 50%;
+
+ }
+
+ #Message {
+     height: 200px;
+ }
+
+h2 {
+    color: #37b09c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#temp{
+    background: red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 1%;
+    top:1%;
+}
+
+
+
 .nav-link {
     color:#666;
     text-align: center;
@@ -19,7 +46,8 @@ h1 {
     padding-top: 30px;
 }
 #contact {
-    
+    background-color: #eee;
+    margin-top: 10px;
 }
 
 #navbard {
