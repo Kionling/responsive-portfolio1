@@ -51,6 +51,9 @@ p {
     div.col-md-4.col-sm-7.col-xs-6 {
         left: 90px;
     }
+    div.col-md-6.col-sm-6.col-xs-6 {
+        margin-left: 135px;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -65,5 +68,8 @@ p {
     }
     div.row {
         margin-top: 10px;
+    }
+    div.col-md-6.col-sm-6.col-xs-6 {
+        margin-left: 10px;
     }
 }
