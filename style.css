@@ -117,7 +117,17 @@ p {
     }
 }
 
-#image2 {
-    margin: 0;
-    padding: 0;
+.centered {
+    position: relative;
+    bottom: 30px;
+    color: white;
+    left: 10px;
+    text-align: center;
+    background-color: #37b09c ;
 }
+
+p#soundcloud.centered {
+    left: 10px;
+}
+
+
