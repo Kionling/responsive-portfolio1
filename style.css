@@ -126,9 +126,11 @@ p {
     margin: 0; 
     padding: 0;
     width: 60px;
-
 }
 
+footer{
+    background-color: dark grey;
+}
 
 
 
