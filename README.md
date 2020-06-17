@@ -41,7 +41,7 @@ Starter Template:
 # Built With 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Deployed Link 
 - [Link to Github repository](https://github.com/Kionling/responsive-portfolio1)
