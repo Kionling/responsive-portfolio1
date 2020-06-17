@@ -1,4 +1,4 @@
-# responsive-portfolio1
+# Responsive Portfolio
 We are tasked to architect and replicate a website with 3 pages within its contents. Those pages are a biography, contact page, and portfolio page. All pages must be created using bootstrap respectively. We are given a collage of images of the finished version of the website, that we are supposed to replicate with some of our own creative addition to it. The root of this website asesthetically, is bootstrap CSS. Bootstrap is used for its seemingly effecient grid and layout system. This allows web developers generate a plethora of content and images to be responsive in a single line of code. (Not really, but you get this gist.)
 ## Installing 
 Located on https://getbootstrap.com/docs/4.0/getting-started/introduction/ you will find the HTML starter template that carries the proper CDN links to be able to use bootstrap CSS and bootstrap classifications.
