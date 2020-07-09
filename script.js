@@ -1,5 +1,4 @@
-var time = moment();
-console.log(time)
+
 
 $(document).ready(function (){
     // Event listener
