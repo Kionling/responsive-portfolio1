@@ -8,3 +8,12 @@ var PORT = process.env.PORT || 8000;
 
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
+
+app.get("/", function(req, res) {
+res.sendFile(path.join(__dirname, "index.html"));
+});
+
+app.get("/portfolio", function (req, res) {
+    res.sendFile(__dirname, "portfolio.html");
+});
+
