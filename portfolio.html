@@ -7,6 +7,16 @@
       <!--Import materialize.css-->
       
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://momentjs.com/downloads/moment.js"></script> 
+      <script>
+
+        $(document).ready(function (){
+            // Event listener
+            $('#current-date').text(moment().format('MMMM Do YYYY, h:mm a'));
+            $(".parallax").parallax();
+        })</script>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,7 +48,7 @@
           <div class="card-panel #f50057 pink accent-3 z-depth-0" style="border-radius: 20px;">
             <div class="row valign-wrapper ">
               <div class="col s2">
-                <img src="Images/Dan.jpg" alt="Danny" class="circle responsive-img"> <!-- notice the "circle" class -->
+                <img src="./Dan.jpg" alt="Danny" class="circle responsive-img"> <!-- notice the "circle" class -->
               </div>
               <div class="col s10">
                 <span class="white-text" style="font-weight: 750;">
@@ -57,13 +67,20 @@
           </div>
         </div>
       </div>
+
+      <div class="row center" style="margin: 0;">
+        <div style="height: 700px; background-image: url(./skies-ani.gif); background-repeat: no-repeat; background-size: cover; background-position: center;" class="col l12 #000000 black">
+          <a href="https://hikr-journal.herokuapp.com/"><img src="./signinHikr.png" style="width: 30%;" alt="HIKR project logo"></a>
+          <a href="/portfolio"><h2 style="font-weight: 900; margin-bottom: 50px;" class="white-text" > Project HIKR</h2></a>
+        </div>
+      </div>
       
     <div class="container">
       <div class="row ">
       <div class="col l4 ">
           <div class="card #03a9f4 light-blue">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="Images/Screen Shot 2020-07-08 at 6.41.31 PM.png" alt="PlanNJam">
+                <img class="activator" src="./Screen Shot 2020-07-08 at 6.41.31 PM.png" alt="PlanNJam">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Plan N' Jam<i class="material-icons right activator">more_vert</i></span>
@@ -82,7 +99,7 @@
       <div class="col l4 ">
         <div class="card #ffab00 amber accent-4">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="Images/Screen Shot 2020-07-15 at 1.56.17 AM.png" alt="PlanNJam">
+              <img class="activator" src="./Screen Shot 2020-07-15 at 1.56.17 AM.png" alt="PlanNJam">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Employee Generator<i class="material-icons right activator">more_vert</i></span>
@@ -98,7 +115,7 @@
     <div class="col l4 ">
       <div class="card #d500f9 purple accent-3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="Images/Screen Shot 2020-07-08 at 6.38.39 PM.png" alt="PlanNJam">
+            <img class="activator" src="./Screen Shot 2020-07-08 at 6.38.39 PM.png" alt="PlanNJam">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right activator">more_vert</i></span>
@@ -119,7 +136,7 @@
                 <div class="col l12">
                   <div class="card small #f48fb1 pink lighten-3 ">
                     <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="Images/pc.png" alt="pcxparts">
+                      <img class="activator" src="./pc.png" alt="pcxparts">
                     </div>
                     <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">Pc parts wishlist<i class="material-icons right activator">more_vert</i></span>
@@ -137,7 +154,7 @@
 
                 <div class="parallax-container" style="text-align: center;">
                   <div class="parallax">
-                    <img src="Images/image_processing20191018-8754-kxorkh.gif" ></div>
+                    <img src="./image_processing20191018-8754-kxorkh.gif" ></div>
                     <h1 style="color: white; font-weight: 900; margin-top: 15%;"><a href="https://github.com/kionling" class="white-text">Want to see more? Click here!</a></h1>
                 </div>     
 
@@ -151,10 +168,6 @@
 
       <!--JavaScript at end of body for optimized loading-->
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      <script src="https://momentjs.com/downloads/moment.js"></script> 
-      <script src="script.js"></script>
     </body>
 
     <footer class="page-footer #00e5ff cyan accent-3">

@@ -6,17 +6,28 @@
       <!--Import materialize.css-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <title>Home</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://momentjs.com/downloads/moment.js"></script> 
+      <script>
+
+        $(document).ready(function (){
+            // Event listener
+            $('#current-date').text(moment().format('MMMM Do YYYY, h:mm a'));
+            $(".parallax").parallax();
+        })</script>
 
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
     </head>
 
     <body>
       
       <div class="container">
         <div class="row">
-          <div class="col s9">  <h3 style="font-weight: 900; color: black; font-size: 60px;"><a href="index.html" class="black-text">Daniel Jauregui</a></h3></div>
+          <div class="col s9">  <h3 style="font-weight: 900; color: black; font-size: 60px;"><a href="/" class="black-text">Daniel Jauregui</a></h3></div>
           <div class="col s3" id="current-date" style="text-align: right; margin-top: 1.9466666667rem; font-weight: 900; color: #1de9b6 ;"></div>
          </div>
         <nav class="z-depth-0">
@@ -34,9 +45,9 @@
 
 
       <div class="row center" style="margin: 0;">
-        <div style="height: 700px; background-image: url(Images/skies-ani.gif); background-repeat: no-repeat; background-size: cover; background-position: center;" class="col l12 #000000 black">
-          <img src="Images/signinHikr.png" style="width: 30%;" alt="HIKR project logo">
-          <h2 style="font-weight: 900; margin-bottom: 50px;" class="white-text" > The Newest Project.</h2>
+        <div style="height: 700px; background-image: url(./skies-ani.gif); background-repeat: no-repeat; background-size: cover; background-position: center;" class="col l12 #000000 black">
+          <a href="https://hikr-journal.herokuapp.com/"><img src="./signinHikr.png" style="width: 30%;" alt="HIKR project logo"></a>
+          <a href="/portfolio"><h2 style="font-weight: 900; margin-bottom: 50px;" class="white-text" > The Newest Project.</h2></a>
         </div>
       </div>
 
@@ -48,7 +59,7 @@
             <div style="height: 286px;" class="col s5 l4  #f50057 pink accent-3">
                 <h4 class="right" style="font-weight: 900;">Portfolio</h4>
                
-                <p class="left" style="font-size: 20px; margin-left: 40px; margin-top: 120px; font-weight: 900;"><a href="portfolio.html" class="black-text">←Explore</a></p>
+                <p class="left" style="font-size: 20px; margin-left: 40px; margin-top: 120px; font-weight: 900;"><a href="/portfolio" class="black-text">←Explore</a></p>
         
             </div>
     </div>
@@ -59,7 +70,7 @@
         <h4 style="font-weight: 900;">Contact</h4>
       
         
-        <p class="right" style="font-size: 20px; margin-right: 40px; margin-top: 90px; font-weight: 900;"><a href="contact.html" class="black-text">Explore→</a></p>
+        <p class="right" style="font-size: 20px; margin-right: 40px; margin-top: 90px; font-weight: 900;"><a href="/contact" class="black-text">Explore→</a></p>
         
         </div>
 
@@ -94,7 +105,7 @@
       <div style="height: 286px;" class="col s5 l4  #1de9b6 teal accent-3">
           <h4 class="right" style="font-weight: 900;">About Me</h4>
          
-          <p class="left" style="font-size: 20px; margin-left: 40px; margin-top: 120px; font-weight: 900;"><a href="aboutMe.html" class="black-text">←Explore</a></p>
+          <p class="left" style="font-size: 20px; margin-left: 40px; margin-top: 120px; font-weight: 900;"><a href="/aboutMe" class="black-text">←Explore</a></p>
   
       </div>
 </div>
@@ -107,7 +118,7 @@
     <div class="parallax-container">
       <h1 style="color: white; font-weight: 900;">Peace.</h1>
       <div class="parallax">
-        <img src="Images/8274a5df4b88dfcd-.gif" alt="Aesthetic train guy"></div>
+        <img src="./koi.gif" alt="Aesthetic koi fish pond"></div>
     </div>
 
 
@@ -118,11 +129,7 @@
 
 
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      <script src="https://momentjs.com/downloads/moment.js"></script> 
-      <script src="script.js"></script>
+    
       
 
 
